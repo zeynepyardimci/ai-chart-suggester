@@ -22,18 +22,6 @@ AI-powered chart generation and visualization tool combining React frontend with
 - Interactive variable selection (X, Y, color, facet)
 - Real-time chart generation with ggplot2
 
-## Tech Stack
-
-**Frontend:**
-- React + TypeScript
-- Vite
-- Tailwind CSS
-
-**Backend:**
-- R Shiny (port 8002)
-- ggplot2 for charts
-- Reactive programming
-
 ## Quick Start
 
 ### Prerequisites
@@ -58,13 +46,6 @@ npm install
 Rscript -e "shiny::runApp('backend_r/shiny_app.R', port=8002, host='0.0.0.0')"
 ```
 
-**Terminal 2 - Start React Frontend:**
-```bash
-npm run dev
-```
-
-**Access:** http://localhost:5173
-
 ## Project Structure
 
 ```
@@ -77,9 +58,8 @@ ai-chart-suggester/
 │   ├── ChartCard.tsx
 │   └── ...
 ├── services/
-│   └── geminiService.ts     # AI service
-├── App.tsx                  # Main React app
-└── types.ts                 # TypeScript types
+│  └── geminiService.ts     # AI service
+
 ```
 
 ## Usage
@@ -152,13 +132,8 @@ Modify `backend_r/shiny_app.R` UI section for styling and layout changes.
 - Check column types (numeric vs categorical)
 - Verify variable selections are compatible with chart type
 
-## License
-
-MIT
-
 ## Credits
 
 - **R Shiny** - Reactive web framework
 - **ggplot2** - Grammar of graphics
 - **Google Gemini** - AI chart suggestions
-- **React** - Frontend framework
