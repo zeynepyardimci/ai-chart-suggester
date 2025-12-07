@@ -1,0 +1,5 @@
+{
+  "name": "AI Chart Suggester",
+  "description": "An interactive web platform that uses AI to provide automatic chart suggestions from CSV data and identifies chart types from images, allowing users to recreate them with their own data.",
+  "requestFramePermissions": []
+}
