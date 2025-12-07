@@ -18,7 +18,6 @@ AI-powered chart generation and visualization tool combining React frontend with
 - **Full reactive data flow**
 - Upload CSV and columns auto-detect
 - Dynamic UI updates
-- 7 chart types: Scatterplot, Line, Bar, Boxplot, Violin, Histogram, Density
 - Interactive variable selection (X, Y, color, facet)
 - Real-time chart generation with ggplot2
 
